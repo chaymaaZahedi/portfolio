@@ -74,10 +74,7 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
-                innovative solutions. Specializing in full-stack development, I
-                combine technical expertise with creative problem-solving to
-                build user-centric applications.
+              Data science enthusiast with a passion for uncovering insights through data. Specializing in machine learning and AI, I combine analytical thinking with technical skills to solve real-world problems and drive data-informed decisions.
               </p>
             </motion.div>
 
@@ -96,15 +93,27 @@ const AboutSection = () => {
                       Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">BSc in Software Engineering</p>
+                      <p className="font-medium">Master’s Degree in Artificial Intelligence</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                      Faculty of Sciences Semlalia, Marrakech
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
+                      2024 – Present
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        
+                      </p>
+                    </div>
+                    <div className="space-y-2">
+                      <p className="font-medium">Professional Licence in Information Systems and Network Engineering</p>
+                      <p className="text-sm text-muted-foreground">
+                      École Supérieure de Technologie , Safi
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                      2020 – 2023
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        
                       </p>
                     </div>
                   </CardContent>
@@ -129,19 +138,19 @@ const AboutSection = () => {
                           Full Stack Developer Intern
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
+                        Lloyd's Maritime Institute
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                        From September 2023 to April 2024
                         </p>
                       </div>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
+                        <p className="font-medium">Web Developer & SEO Specialist</p>
                         <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
+                          Pole Position Agency
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Freelance
+                          CDI
                         </p>
                       </div>
                     </div>
@@ -167,13 +176,13 @@ const AboutSection = () => {
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
                   src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  alt="chaymaa zahedi"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>CZ</AvatarFallback>
               </Avatar>
               <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                3.41 GPA
+                it's me
               </div>
             </motion.div>
 
@@ -181,9 +190,9 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">Chaymaa Zahedi</h3>
               <p className="text-muted-foreground">
-                Software Engineering Student
+              Data science Student
               </p>
             </motion.div>
 
@@ -192,13 +201,13 @@ const AboutSection = () => {
               className="flex flex-wrap gap-2 justify-center lg:justify-start"
             >
               <Badge variant="outline" className="bg-primary/10">
-                React
+                ML
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Node
+                DL
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                UI/UX
+                NLP
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
                 Full Stack

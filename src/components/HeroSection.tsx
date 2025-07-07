@@ -56,14 +56,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Aathif{" "}
+            Chaymaa{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Zahir
+              Zahedi
             </motion.span>
           </motion.h1>
 
@@ -73,7 +73,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Full-Stack Developer & Software Engineering Student
+            Data scientist & AI Student
           </motion.p>
 
           <motion.p
@@ -82,8 +82,8 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Building elegant solutions to complex problems with modern
-            technologies.
+            Designing intelligent systems that learn and adapt to solve complex 
+            challenges.
           </motion.p>
 
           <motion.div
@@ -193,85 +193,107 @@ const HeroSection = () => {
                     whileHover={{ scale: 1.2 }}
                   />
                 </div>
-                <div className="text-xs text-gray-500">developer.js</div>
+                <div className="text-xs text-gray-500">data_scientist.py</div>
               </div>
 
               <div className="space-y-2 font-mono text-sm">
-                <div className="text-gray-500">{"// Software Engineer"}</div>
-                <div>
-                  <span className="text-pink-600">const</span>{" "}
-                  <span className="text-blue-600">developer</span>{" "}
-                  <span className="text-gray-500">=</span>{" "}
-                  <span className="text-orange-500">{"{"}</span>
-                </div>
-                <motion.div
-                  className="pl-6"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 1.4, duration: 0.3 }}
-                >
-                  <span className="text-purple-600">name</span>
-                  <span className="text-gray-500">:</span>{" "}
-                  <span className="text-green-600">'Aathif Zahir'</span>
-                  <span className="text-gray-500">,</span>
-                </motion.div>
+              <div className="text-gray-500">{"# Data scientist"}</div>
 
-                <motion.div
-                  className="pl-6"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 1.6, duration: 0.3 }}
-                >
-                  <span className="text-purple-600">skills</span>
-                  <span className="text-gray-500">:</span>{" "}
-                  <span className="text-orange-500">[</span>
-                  <span className="text-green-600">'React'</span>
-                  <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'Node.js'</span>
-                  <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'Python'</span>
-                  <span className="text-orange-500">]</span>
-                  <span className="text-gray-500">,</span>
-                </motion.div>
-
-                <motion.div
-                  className="pl-6"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 1.8, duration: 0.3 }}
-                >
-                  <span className="text-purple-600">focuses</span>
-                  <span className="text-gray-500">:</span>{" "}
-                  <span className="text-orange-500">[</span>
-                  <span className="text-green-600">'Full-Stack'</span>
-                  <span className="text-gray-500">,</span>{" "}
-                  <span className="text-green-600">'UI/UX'</span>
-                  <span className="text-orange-500">]</span>
-                  <span className="text-gray-500">,</span>
-                </motion.div>
-
-                <motion.div
-                  className="pl-6"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 2.0, duration: 0.3 }}
-                >
-                  <span className="text-purple-600">learning</span>
-                  <span className="text-gray-500">:</span>{" "}
-                  <span className="text-green-600">'Always'</span>
-                </motion.div>
-
-                <div>
-                  <span className="text-orange-500">{"}"}</span>
-                  <span className="text-gray-500">;</span>
-                </div>
+              <div>
+                <span className="text-purple-600">data_scientist</span>{" "}
+                <span className="text-gray-500">=</span>{" "}
+                <span className="text-orange-500">{"{"}</span>
               </div>
-            </motion.div>
-          </div>
-        </motion.div>
-      </div>
-    </section>
-  );
-};
+
+              <motion.div
+                className="pl-6"
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 1.4, duration: 0.3 }}
+              >
+                <span className="text-green-600">'name'</span>
+                <span className="text-gray-500">:</span>{" "}
+                <span className="text-green-600">"Chaymaa"</span>
+                <span className="text-gray-500">,</span>
+              </motion.div>
+
+              <motion.div
+                className="pl-6"
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 1.6, duration: 0.3 }}
+              >
+                <span className="text-green-600">'skills'</span>
+                <span className="text-gray-500">:</span>{" "}
+                <span className="text-orange-500">{"{"}</span>
+                <span className="text-green-600">"ML"</span>
+                <span className="text-gray-500">: </span>
+                <span className="text-purple-600">0.9</span>
+                <span className="text-gray-500">, </span>
+                <span className="text-green-600">"DL"</span>
+                <span className="text-gray-500">: </span>
+                <span className="text-purple-600">0.7</span>
+                <span className="text-gray-500">, </span>
+                <span className="text-green-600">"NLP"</span>
+                <span className="text-gray-500">: </span>
+                <span className="text-purple-600">0.5</span>
+                <span className="text-orange-500">{"}"}</span>
+                <span className="text-gray-500">,</span>
+              </motion.div>
+
+              <motion.div
+                className="pl-6"
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 1.8, duration: 0.3 }}
+              >
+                <span className="text-green-600">'learning'</span>
+                <span className="text-gray-500">:</span>{" "}
+                <span className="text-purple-600">True</span>
+                <span className="text-gray-500">,</span>
+              </motion.div>
+
+              <motion.div
+                className="pl-6"
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 2.0, duration: 0.3 }}
+              >
+                <span className="text-green-600">'think'</span>
+                <span className="text-gray-500">:</span>{" "}
+                <span className="text-purple-600">lambda</span>{" "}
+                <span className="text-green-600">topic</span>
+                <span className="text-gray-500">: </span>
+                <span className="text-orange-500">f</span>
+                <span className="text-green-600">{"Processing {topic} with AI mindset..."}</span>
+              </motion.div>
+
+              <div>
+                <span className="text-orange-500">{"}"}</span>
+              </div>
+
+              <div className="mt-2 font-mono text-sm">
+                <span className="text-purple-600">print</span>
+                <span className="text-gray-500">(</span>
+                <span className="text-green-600">data_scientist</span>
+                <span className="text-gray-500">[</span>
+                <span className="text-yellow-500">"</span>
+                <span className="text-green-600">think</span>
+                <span className="text-yellow-500">"</span>
+                <span className="text-gray-500">]</span>
+                <span className="text-gray-500">(</span>
+                <span className="text-yellow-500">"</span>
+                <span className="text-green-600">data</span>
+                <span className="text-yellow-500">"</span>
+                <span className="text-gray-500">))</span>
+              </div>
+            </div>
+                        </motion.div>
+                      </div>
+                    </motion.div>
+                  </div>
+                </section>
+              );
+            };
 
 export default HeroSection;

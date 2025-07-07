@@ -20,8 +20,7 @@ const ProjectsSection = () => {
       <div className="section-container">
         <h2 className="section-heading">Projects</h2>
         <p className="text-muted-foreground max-w-2xl mb-12">
-          Here are some of the projects I've worked on, showcasing my skills in
-          various technologies and problem domains.
+        Here are some of the AI-driven projects I've worked on, highlighting my skills in machine learning, data analysis, and real-world problem solving.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
