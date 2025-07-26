@@ -10,33 +10,33 @@ export type SkillCategory = {
 
 export const skillCategories: SkillCategory[] = [
   {
-    name: "Programming Languages",
+    name: "Data Science",
     icon: Terminal,
-    skills: ["JavaScript", "Java", "Python", "TypeScript", "HTML/CSS"],
+    skills: ["Python", "Machine Learning", "Data Visualization", "Statistics", "Data Cleaning" , "nlp"],
   },
   {
-    name: "Frontend Development",
+    name: "Web Development",
     icon: Layout,
-    skills: ["React", "React Native", "Next.js", "Tailwind CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "Laravel"],
   },
   {
-    name: "Backend Development",
-    icon: Code,
-    skills: ["Node.js", "Express.js", "Spring Boot", "REST APIs"],
-  },
-  {
-    name: "Databases",
+    name: "Soft Skills",
     icon: Database,
-    skills: ["MongoDB", "MySQL", "Firebase", "PostgreSQL"],
+    skills: ["Analytical Thinking", "Problem Solving", "Adaptability", "Autonomy", "Communication"],
   },
   {
     name: "Tools & Technologies",
     icon: Cpu,
-    skills: ["Git", "Agile/Scrum"],
+    skills: ["Jupyter Notebook", "Google Colab", "Git", "GitHub", "Docker"],
   },
   {
-    name: "Design",
+    name: "Embedded Systems",
     icon: Palette,
-    skills: ["Figma", "Adobe AI", "UI/UX Design", "Wireframing", "Prototyping"],
+    skills: ["Arduino", "raspberry pi", "Sensors", "Serial Communication", "IoT"],
+  },
+  {
+    name: "SEO & Analytics",
+    icon: Code,
+    skills: ["SEO", "Google Analytics", "Google Search Console", "Keyword Research", "Content Optimization"],
   },
 ];
