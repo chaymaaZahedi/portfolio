@@ -32,7 +32,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Embedded Systems",
     icon: Palette,
-    skills: ["Arduino", "raspberry pi", "Sensors", "Serial Communication", "IoT"],
+    skills: ["Arduino", "raspberry pi ", "Sensors", "Serial Communication", "IoT"],
   },
   {
     name: "SEO & Analytics",
