@@ -143,6 +143,9 @@ const AboutSection = () => {
                         <p className="text-sm text-muted-foreground">
                         From September 2023 to April 2024
                         </p>
+                        <p className="text-sm text-muted-foreground">
+                           On site
+                        </p>
                       </div>
                       <div>
                         <p className="font-medium">Web Developer & SEO Specialist</p>
@@ -150,7 +153,7 @@ const AboutSection = () => {
                           Pole Position Agency
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          CDI
+                          {/* CDI */} Remote
                         </p>
                       </div>
                     </div>
